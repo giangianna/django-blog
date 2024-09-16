@@ -1,2 +1,4 @@
 # python3.11.9
 Django==5.1.1
+django-crispy-forms==2.3
+crispy-bootstrap4
