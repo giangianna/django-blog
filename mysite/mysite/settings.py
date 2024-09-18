@@ -41,7 +41,16 @@ INSTALLED_APPS = [
     'blog',
     'crispy_forms',
     'crispy_bootstrap4',
+    'django_summernote',
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG=True
+
+X_FRAME_OPTIONS = "SAMEORIGIN"
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 CRISPY_TEMPLATE_PACK = "bootstrap4" 
